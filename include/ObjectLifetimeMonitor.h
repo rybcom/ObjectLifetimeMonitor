@@ -8,7 +8,7 @@
 #define TRACE(...) set_location(); __VA_ARGS__
 #define TRACE_FUNC() FunctionTracing _(__FUNCTION__)
 
-namespace instancing_monitor
+namespace object_lifetime_tracking
 {
 	
 	inline constexpr bool TraceSourceLocation = true;

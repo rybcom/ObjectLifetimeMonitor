@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\instancing_monitor\InstancingMonitor.h">
+    <ClInclude Include="..\include\ObjectLifetimeMonitor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

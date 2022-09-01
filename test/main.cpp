@@ -1,17 +1,17 @@
 
 #include <iostream>
 #include <vector>
-#include "InstancingMonitor.h"
+#include "ObjectLifetimeMonitor.h"
 
-using namespace instancing_monitor;
+using namespace object_lifetime_tracking;
 
 Sphere const getConstSphere()
 {
-	TRACE(return Sphere(););
+	TRACE(return Sphere());
 }
 Sphere getSphere()
 {
-	TRACE(return Sphere(););
+	TRACE(return Sphere());
 }
 
 void copy_assign_const()
