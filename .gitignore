@@ -1,0 +1,12 @@
+﻿/bin
+/intermediate
+
+*.vs
+*.vscode
+*.vcxproj.user
+*.user
+*.suo
+*.opensdf
+*.VC.opendb
+*.sdf
+*.svn
